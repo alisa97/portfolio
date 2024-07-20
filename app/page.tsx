@@ -1,4 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -6,6 +7,17 @@ export default function Page() {
       <h1 className='mb-8 text-2xl font-semibold tracking-tighter'>
         Hey there 👋
       </h1>
+
+      <div className='mb-8'>
+        <Image
+          src='https://avatars.githubusercontent.com/u/84686823?v=4'
+          alt='Alisa Bhusal'
+          className='w-32 h-32 rounded-full'
+          width={300}
+          height={300}
+        />
+      </div>
+
       <p className='mb-4'>
         I'm Alisa Bhusal, a passionate Information Technology graduate based in
         Sydney with a strong foundation in software testing . With hands-on
