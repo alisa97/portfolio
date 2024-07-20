@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: 'My Portfolio',
+    title: 'Alisa Bhusal',
     description: 'This is my portfolio.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Alisa Bhusal',
     locale: 'en_US',
     type: 'website',
   },
